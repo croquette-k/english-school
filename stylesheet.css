@@ -221,20 +221,17 @@ h3::after {
 .fade-in {
     opacity: 0;
     transition-duration: 500ms;
-    transition-property: opacity, transform;
+    transition-property: opacity, width;
   }
   .fade-in-left {
-    display:none;
-    transform: translate(-50%, 0);
+    width:0;
   }
   .fade-in-right {
-    display:none;
-    transform: translate(50%, 0);
+    width:0;
   }
 .scroll-in {
-    display:block;
     opacity: 1;
-    transform: translate(0, 0);
+    width:50%;
   }
   /* 受験生の声 */
 .student-voice {
