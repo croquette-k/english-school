@@ -224,12 +224,15 @@ h3::after {
     transition-property: opacity, transform;
   }
   .fade-in-left {
+    display:none;
     transform: translate(-50%, 0);
   }
   .fade-in-right {
+    display:none;
     transform: translate(50%, 0);
   }
 .scroll-in {
+    display:block;
     opacity: 1;
     transform: translate(0, 0);
   }
