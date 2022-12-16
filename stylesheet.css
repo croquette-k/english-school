@@ -73,7 +73,7 @@ nav {
     width: 100px;
     height:100px;
     top: 0;
-    left: calc(100vw - 100px);
+    right:0;
     z-index: 10;
 }
 .openbtn span{
@@ -186,6 +186,7 @@ h3::after {
 .reason-bottom {
     background-color: #FF2A2A;
     padding: 60px 0 100px 0;
+    overflow-x: hidden;
 }
 .reason {
     padding: 70px 0;
