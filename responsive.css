@@ -10,7 +10,6 @@
     .openbtn {
         width: 75px;
         height: 75px;
-        left: calc(100vw - 75px)
     }
     .openbtn span{
         position: absolute;
